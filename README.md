@@ -6,10 +6,11 @@ mysql workbench and postman
 
 prerequisite Queries
 
+create database customer
+
 create user 'shivu' idenified by password 'vm123'
 
-create database customer
- grant all on customer.* to 'shivu';
+grant all on customer.* to 'shivu';
 
 Delete API : http://localhost:8080/customer/deleteCustomer/6c6e53ae-4873-406f-a400-44b04e80d287
 
