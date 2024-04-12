@@ -8,7 +8,7 @@ prerequisite Queries
 
 create database customer
 
-create user 'shivu' idenified by password 'vm123'
+CREATE USER 'shivu'@'localhost' IDENTIFIED BY 'vm123'; 
 
 grant all on customer.* to 'shivu';
 
